@@ -1,0 +1,1 @@
+.\start.ps1 -accountUuid '{1f636243-628e-45af-a878-777493d966f0}' -repositoryUuid '{9421343e-2671-4591-9e33-3e42a2569f5e}' -runnerUuid '{7f725e43-f56b-5953-b932-70939c315db6}' -OAuthClientId KeAsqfPpOHoxzwa334JzLNGlsFNxRqFk -OAuthClientSecret ATOAtfxU8J8pZk7IuatfIsw3aVbQdz2cz9BW0RLS8NzdKp9KItGm9Rn0ihZ6iwWeeV_Z56EBC96B -workingDirectory '..\temp'
