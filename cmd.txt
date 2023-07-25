@@ -1,1 +1,6 @@
 .\start.ps1 -accountUuid '{1f636243-628e-45af-a878-777493d966f0}' -repositoryUuid '{9421343e-2671-4591-9e33-3e42a2569f5e}' -runnerUuid '{7f725e43-f56b-5953-b932-70939c315db6}' -OAuthClientId KeAsqfPpOHoxzwa334JzLNGlsFNxRqFk -OAuthClientSecret ATOAtfxU8J8pZk7IuatfIsw3aVbQdz2cz9BW0RLS8NzdKp9KItGm9Rn0ihZ6iwWeeV_Z56EBC96B -workingDirectory '..\temp'
+
+
+
+
+-jar -Dbitbucket.pipelines.runner.account.uuid={1f636243-628e-45af-a878-777493d966f0} -Dbitbucket.pipelines.runner.repository.uuid={9421343e-2671-4591-9e33-3e42a2569f5e} -Dbitbucket.pipelines.runner.uuid={7f725e43-f56b-5953-b932-70939c315db6} -Dbitbucket.pipelines.runner.environment=PRODUCTION -Dbitbucket.pipelines.runner.oauth.client.id=KeAsqfPpOHoxzwa334JzLNGlsFNxRqFk -Dbitbucket.pipelines.runner.oauth.client.secret=ATOAtfxU8J8pZk7IuatfIsw3aVbQdz2cz9BW0RLS8NzdKp9KItGm9Rn0ihZ6iwWeeV_Z56EBC96B -Dbitbucket.pipelines.runner.directory.working=..\temp -Dbitbucket.pipelines.runner.runtime=windows-powershell -Dbitbucket.pipelines.runner.scheduled.state.update.initial.delay.seconds=0 -Dbitbucket.pipelines.runner.scheduled.state.update.period.seconds=30 -Dbitbucket.pipelines.runner.cleanup.previous.folders=false -Dfile.encoding=UTF-8 -Dsun.jnu.encoding=UTF-8 ./runner.jar
